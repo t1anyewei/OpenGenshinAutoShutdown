@@ -18,7 +18,7 @@
 
 
   
-  2.win + r 输入regedit找到计算机 \HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+  2.win + r 输入regedit找到 "计算机 \HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run"
 删除里面的6657upup
 
 
