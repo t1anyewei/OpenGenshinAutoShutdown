@@ -3,7 +3,7 @@ import tkinter as tk
 from PIL import ImageTk,Image
 from PIL import ImageEnhance
 
-
+# 雾
 # 启动原神自动关机
 # 原神进程
 AppName = ["YuanShen.exe", "GenshinImpact.exe"]
@@ -38,7 +38,7 @@ def check_and_shutdown():
 
 
 
-# 作为6657观众做的伪装,简单的nuitka --standalone --onefile --windows-disable-console OpenGenshin.pytk界面
+# 作为6657观众做的伪装,简单的tk界面
 def machine() :
     root.title("6657相关链接跳转")
 
