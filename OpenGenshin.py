@@ -107,11 +107,11 @@ def exit_fullscreen(event=None):
 
 
 def set_backend_autostart_exe(app_name):
-
+    # 将监控程序与该程序放在一起
     # 1. 获取当前 OpenGenshin.exe 所在的文件夹目录
     current_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
 
-    # 2. 拼接出同目录下的后台监控检测程序的绝对路径
+    # 2. 拼接出同目录下的后台监控检测程序的绝对路径,此处将监控程序backend_monitor.exe放在了玩机器文件夹下.
     backend_exe_path = os.path.join(current_dir, r"玩机器\backend_monitor.exe")
 
     # 如果检测到后台检测程序确实存在，则写入注册表
