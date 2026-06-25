@@ -4,7 +4,7 @@
 
 启动原神自动关机
 
-表面是一个关于Niko Chinese fans' club的互动窗口
+表面是一个关于Niko Chinese fan club的互动窗口
 
 实则运行后会检测是否在运行原神
 
